@@ -50,6 +50,17 @@ body {
   background-size: cover;
 }
 
+.topnav {
+  position: relative;
+  margin: .5em;
+  text-align: center;
+}
+
+.topnav a {
+  font-size: 2em;
+  margin: 10px;
+}
+
 /*Profile Photo*/
 .resize {
   display: block;
