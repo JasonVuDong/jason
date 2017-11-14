@@ -1,0 +1,230 @@
+/*Main Header*/
+h1 {
+  text-align: center;
+  letter-spacing: 2px;
+  font-family: Georgia;
+  font-size: 50px;
+}
+
+/*H2 Header*/
+h2 {
+  text-align: center;
+  letter-spacing: 2px;
+  font-family: Georgia;
+  font-size: 35px;
+  padding-top: 40px;
+}
+
+/*About Me section*/
+.bio {
+  font-family: Georgia;
+  font-size: 20px;
+  word-break: keep-all;
+  word-spacing: 5px;
+  text-align: center;
+  line-height: 30px;
+
+}
+
+/*Navigation Links */
+a{
+  color: blue;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+
+/*Navigation Links Style*/
+ul{
+  text-align: left;
+  font-family: Georgia;
+  font-size: 25px;
+  list-style-type: none;
+}
+
+/*Background*/
+body {
+  background-image: url(https://i.imgur.com/T00oVEG.jpg);
+  background-repeat: no-repeat;
+  object-fit:fill;
+  background-size: cover;
+}
+
+/*Profile Photo*/
+.resize {
+  display: block;
+  margin: auto;
+  border-radius: 8px;
+  max-width: 50%;
+  max-height: 25%;
+}
+
+/*Project photos*/
+.projectphoto1 {
+  display: block;
+  margin: auto;
+  border-radius: 8px;
+  max-width: 50%;
+  max-height: 50%;
+  padding-top: 30px;
+  opacity: 0.9;
+}
+
+.projectphoto2 {
+  display: block;
+  margin: auto;
+  border-radius: 8px;
+  max-width: 50%;
+  max-height: 50%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  opacity: 0.9;
+}
+
+.projectphoto3 {
+  display: block;
+  margin: auto;
+  border-radius: 8px;
+  max-width: 50%;
+  max-height: 50%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  opacity: 0.9;
+}
+
+/*Project Caption*/
+figcaption {
+  text-align: center;
+  font-family: Georgia;
+  font-size: 20px;
+}
+
+/*contact information*/
+#contact {
+  text-align: center;
+  font-family: Georgia;
+  word-spacing: 5px;
+  font-size: 25px;
+}
+/*Media Queries Section*/
+
+
+@media screen and (max-width: 320px) {
+    .projectphoto1, .projectphoto2, .projectphoto3 {
+      display: block;
+      margin: auto;
+      border-radius: 8px;
+      max-width: 100%;
+      max-height: 100%;
+      padding-top: 30px;
+      opacity: 0.9;
+    }
+
+    figcaption {
+      text-align: center;
+      font-family: Georgia;
+      font-size: 15px;
+    }
+
+    .bio {
+      font-family: Georgia;
+      font-size: 18px;
+      word-break: keep-all;
+      word-wrap: normal;
+      text-align: left;
+      line-height: 30px;
+    }
+
+    #contact {
+      text-align: center;
+      font-family: Georgia;
+      word-spacing: 5px;
+      font-size: 20px;
+    }
+    ul{
+      text-align: center;
+      font-family: Georgia;
+      font-size: 25px;
+      list-style-type: none;
+    }
+}
+
+@media screen and (min-width: 321px) and (max-width: 768px) {
+    .projectphoto1, .projectphoto2, .projectphoto3 {
+      display: block;
+      margin: auto;
+      border-radius: 8px;
+      max-width: 100%;
+      max-height: 100%;
+      padding-top: 30px;
+      opacity: 0.9;
+    }
+
+    figcaption {
+      text-align: center;
+      font-family: Georgia;
+      font-size: 15px;
+    }
+
+    .bio {
+      font-family: Georgia;
+      font-size: 18px;
+      word-break: keep-all;
+      word-wrap: normal;
+      text-align: left;
+      line-height: 30px;
+    }
+
+    #contact {
+      text-align: center;
+      font-family: Georgia;
+      word-spacing: 5px;
+      font-size: 20px;
+    }
+    ul{
+      text-align: center;
+      font-family: Georgia;
+      font-size: 25px;
+      list-style-type: none;
+    }
+}
+@media screen and (min-width: 769px) {
+    .projectphoto1, .projectphoto2, .projectphoto3 {
+      display: block;
+      margin: auto;
+      border-radius: 8px;
+      max-width: 50%;
+      max-height: 50%;
+      padding-top: 30px;
+      padding-bottom: 30px;
+      opacity: 0.9;
+    }
+
+    figcaption {
+      text-align: center;
+      font-family: Georgia;
+      font-size: 20px;
+    }
+
+    .bio {
+      font-family: Georgia;
+      font-size: 20px;
+      word-break: keep-all;
+      word-spacing: 5px;
+      text-align: center;
+      line-height: 30px;
+    }
+
+    #contact {
+      text-align: center;
+      font-family: Georgia;
+      word-spacing: 5px;
+      font-size: 25px;
+    }
+    ul{
+      text-align: left;
+      font-family: Georgia;
+      font-size: 25px;
+      list-style-type: none;
+    }
+}
