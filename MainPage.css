@@ -1,4 +1,19 @@
 /*Main Header*/
+section{
+  padding-left:  10px;
+  padding-right: 10px;
+  overflow: auto;
+}
+/*
+section:nth-child(even) {
+  background-color: lightblue;
+}
+section:nth-child(odd) {
+  background-color: yellow;
+}
+*/
+
+
 h1 {
   text-align: center;
   letter-spacing: 2px;
@@ -12,7 +27,6 @@ h2 {
   letter-spacing: 2px;
   font-family: Georgia;
   font-size: 35px;
-  padding-top: 40px;
 }
 
 /*About Me section*/
@@ -67,7 +81,7 @@ body {
   margin: auto;
   border-radius: 8px;
   max-width: 50%;
-  max-height: 25%;
+  max-height: 50%;
 }
 
 /*Project photos*/
