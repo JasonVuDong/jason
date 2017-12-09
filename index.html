@@ -1,68 +1,63 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta charset="utf-8">
-  <meta name="author" content="Jason Vu Dong">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="MainPage.css" type="text/css" rel="stylesheet">
-  <!--Website title-->
-  <title>Jason Dong Portfolio</title>
-  <!-- http://userwww.sfsu.edu/infoarts/technical/howto/wilson.javascript.exampls.html
-    Licencse: none (public domain) -->
-  <script language="Javascript">
-  var today= new Date()
-  </script>
+<meta charset="utf-8">
+<meta name="author" content="Jason Vu Dong">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="MainPage.css" type="text/css" rel="stylesheet">
+<!--Website title-->
+<title>Jason Dong Portfolio</title>
 </head>
 
-<body onload=alert(today)>
-  <header>
-    <h1>Hi! I'm Jason Dong</h1>
-    <!--Profile photo below Main Header-->
-    <img class = "resize" src="https://i.imgur.com/jSPys0x.png" atl="Profile Photo">
-  </header>
+<body>
+<header>
+<h1>Hi! I'm Jason Dong</h1>
+<!--Profile photo below Main Header-->
+<img class = "resize" src="https://i.imgur.com/jSPys0x.png" atl="Profile Photo">
+</header>
+
 <!--3 Navigations in the same page-->
 <nav class = "topnav">
-
-  <a href="#aboutme">About Me</a>
-  <a href="#projects">My Projects</a>
-  <a href="#contact">Contact</a>
-
+<a href="#aboutme">About Me</a>
+<a href="#projects">My Projects</a>
+<a href="#contact">Contact</a>
+<a href="findings.html">Project Summary</a>
 </nav>
-  <!--First Navigation - About me-->
-  <section>
-    <div id="aboutme">
-      <h2>Something About Me</h2>
-      <p class="bio">Hi! My name is Jason Dong. I'm currently an Informatics Undergraduate at UCI.</br>
-        My specialization is Human Computer Interaction and I want to be a UX/UI designer</br>
-        in the future. I'm experienced in collaborating with different groups of people</br>
-        to solve complex problems.</br>
-        My skills include programming in C++, HTML, CSS, JavaScript, and interface design.</br>
-        Currently, my goal is to land an internship as an UX designer to have a better hands-on experience.</p>
-    </div>
+<!--First Navigation - About me-->
+<section>
+  <div id="aboutme">
+    <h2>Something About Me</h2>
+    <p class="bio">Hi! My name is Jason Dong. I'm currently an Informatics Undergraduate at UCI.</br>
+      My specialization is Human Computer Interaction and I want to be a UX/UI designer</br>
+      in the future. I'm experienced in collaborating with different groups of people</br>
+      to solve complex problems.</br>
+      My skills include programming in C++, HTML, CSS, JavaScript, and interface design.</br>
+      Currently, my goal is to land an internship as an UX designer to have a better hands-on experience.</p>
+  </div>
+</section>
+<!--Second Navigation - My Projects-->
+<section>
+  <figure>
+  <div id="projects">
+    <h2>My Projects</h2>
+    <img class="projectphoto1" src="https://i.imgur.com/hk0zkMT.png" alt="Project Bookstore1">
+    <img class="projectphoto2" src="https://i.imgur.com/fr1BIQl.png" alt="Project Bookstore2">
+    <figcaption>A bookstore database created by using Microsoft Access</figcaption>
+    <img class="projectphoto3" src="https://i.imgur.com/B1t4sJW.png" alt="Project MainFrame">
+    <figcaption>A digital photo frame</figcaption>
+  </div>
+  </figure>
+</section>
+<!--Third Navigation - Contact-->
+<section>
+  <div id="contact">
+      <h2>Feel free to contact me!</h2>
+        <a href="https://www.facebook.com/loi.dong.7">Facebook</a>
+        <a href="https://www.linkedin.com/in/jason-dong-ab7716150/">LinkedIn</a>
+        <p>Email: <a href="mailto:lvdong@uci.edu" target="_top">lvdong@uci.edu</a></p>
+        <p>Phone: 714-468-3323</p>
+      </div>
   </section>
-  <!--Second Navigation - My Projects-->
-  <section>
-    <figure>
-    <div id="projects">
-      <h2>My Projects</h2>
-      <img class="projectphoto1" src="https://i.imgur.com/hk0zkMT.png" alt="Project Bookstore1">
-      <img class="projectphoto2" src="https://i.imgur.com/fr1BIQl.png" alt="Project Bookstore2">
-      <figcaption>A bookstore database created by using Microsoft Access</figcaption>
-      <img class="projectphoto3" src="https://i.imgur.com/B1t4sJW.png" alt="Project MainFrame">
-      <figcaption>A digital photo frame</figcaption>
-    </div>
-    </figure>
-  </section>
-  <!--Third Navigation - Contact-->
-  <section>
-    <div id="contact">
-        <h2>Feel free to contact me!</h2>
-          <a href="https://www.facebook.com/loi.dong.7">Facebook</a>
-          <a href="https://www.linkedin.com/in/jason-dong-ab7716150/">LinkedIn</a>
-          <p>Email: <a href="mailto:lvdong@uci.edu" target="_top">lvdong@uci.edu</a></p>
-          <p>Phone: 714-468-3323</p>
-        </div>
-    </section>
 
 </body>
 </html>
