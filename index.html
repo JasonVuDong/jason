@@ -50,7 +50,7 @@
       <h3>Languages</h3>
         <p class="languages">C++ Java HTML CSS</p>
       <h3>Tools and Softwares</h3>
-        <p class="softwares">Microsoft Office, Git, Atom, Wireframes, Mockups</p>
+        <p class="softwares">Microsoft Office, Git, Atom, Wireframes, Mockups, Sketch</p>
   </section>
 
   <!--Experience Section-->
@@ -59,7 +59,7 @@
       <h2>My Project</h2>
         <img class="projectphoto1" src="https://i.imgur.com/8VOnXYj.png" alt="MainFrame">
         <img class="projectphoto1" src="https://i.imgur.com/fB01Ap6.png" alt="MainFrame">
-        <p class="projectdescription">These photos are the mockups of Main Frame. A smart photo frame
+        <p class="projectdescription">These photos are the mockups of Main Frame. A smart photo frame device
           that can display weather forecast and photos. The device has a sensor that detects nearby objects
           and switches from displaying photos to weather forecast.</p>
       <h2>Relevant Experience</h2>
@@ -73,23 +73,6 @@
           I had to give my own reflection and evaluation about the interactions with the devices to the research team.</p>
     </div>
   </section>
-<!--java script-->
-  <script>
-    var myIndex = 0;
-    carousel();
-
-    function carousel() {
-        var i;
-        var x = document.getElementsByClassName("projectphoto1");
-        for (i = 0; i < x.length; i++) {
-           x[i].style.display = "none";
-        }
-        myIndex++;
-        if (myIndex > x.length) {myIndex = 1}
-        x[myIndex-1].style.display = "block";
-        setTimeout(carousel, 2000); // Change image every 2 seconds
-}
-</script>
   <!--Third Navigation - Contact-->
  <section id="contacttext">
     <h2 id="contact">Feel free to contact me!</h2>
@@ -99,6 +82,23 @@
             <a href="mailto:lvdong@uci.edu" target="_blank"> <img class="contactphoto" src="https://i.imgur.com/KzyaoGm.png" alt="Email"></a>
           </div>
   </section>
+  <!--java script-->
+    <script>
+      var myIndex = 0;
+      carousel();
+
+      function carousel() {
+          var i;
+          var x = document.getElementsByClassName("projectphoto1");
+          for (i = 0; i < x.length; i++) {
+             x[i].style.display = "none";
+          }
+          myIndex++;
+          if (myIndex > x.length) {myIndex = 1}
+          x[myIndex-1].style.display = "block";
+          setTimeout(carousel, 2000); // Change image every 2 seconds
+  }
+  </script>
   <footer>
       <p class="copyright"> &copy; <strong>Jason Vu Dong 2017</strong></p>
   </footer>
